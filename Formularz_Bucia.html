@@ -6,7 +6,163 @@
 			<title> walidacja </title>
 		</head>
 		<body>
-			Jan Bucia
+			<!DOCTYPE html>
+ <html lang="pl-PL">
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title> Formularz </title>
+ </head>
+<body bgcolor="green">
+<center><h1> Formularz na temat pilki noznej </h1></center>
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
+ <TABLE>
+<TR height="100">
+ <TD width="500"> 
+ <b>Podaj swoja plec</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="plec" size="22">
+ </TD> 
+ <TD width="300" > 
+<center><font size="5" color="black">Podaj swoj przedzial wiekowy</font></center><br>
+ <center> <select>
+ <option value="1-14">1-14</option>
+ <option value="15-20">15-20</option>
+<option value="21-25">21-25</option>
+ <option value="26+">26+</option>
+ </select> </center>
+ </TD> 
+ <TD width="500">Jaka jest najlepsza piłkarska reprezentacja
+<br><br>
+<input type="checkbox" name="reprezentacja" value="k"> Brazylia
+<br><br>
+<input type="checkbox" name="reprezentacja" value="m"> Francja
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> Argentyna
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> Włochy
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> Inna
+<br><br>
+<nobr>Jeśli zaznaczyłeś INNA to podaj najlepsza reprezentacje<br>
+</nobr>
+<br>
+<input name="inna" size="25" maxlength="100">
+ </TD>
+ </TR>
+<TR height="200">
+ <TD><nobr>Jaka jest najlepsza liga pilkarska na swiecie</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Premier League
+<br><br>
+<input type="radio" name="pyt3" value="nie"> La Liga
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Serie A 
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Bundesliga
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Ligue 1
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Inna
+<br><br>
+ </TD>
+ </TR>
+<TR height="100">
+ <TD><nobr>Jaki jest najlepszy klub w Premier League</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Manchester City
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Liverpool
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Chelsea
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Arsenal
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Tottenham 
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Manchester United
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Inny
+<br><br>
+ </TD>
+ </TR>
+<TR height="100">
+ <TD><nobr>Jaki jest najlepszy klub w La Liga</nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> FC Barcelona
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Real Madryt
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Atletico Madryt
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Inny
+<br><br>
+ </TD>
+ </TR>
+<TD width="500">Jaki jest najlepszy klub w Serie A
+<br><br>
+<input type="checkbox" name="reprezentacja" value="k"> AC Milan
+<br><br>
+<input type="checkbox" name="reprezentacja" value="m"> Juventus
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> Napoli
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> Inter Mediolan
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> AS Roma
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> Lazio
+<br><br>
+<input type="checkbox" name="reprezentacja" value="inna"> Inny
+<br><br>
+<TD width="300" > 
+<center><font size="5" color="black">Jaki jest najlepszy klub w Bundeslidze</font></center><br>
+ <center> <select>
+ <option value="1-14">Bayern Monachium</option>
+ <option value="15-20">Borussia Dortmund</option>
+<option value="21-25">Inny</option>
+ </select> </center>
+ </TD> 
+<TD width="300"> 
+<center><font size="5" color="black">Jaki jest najlepszy klub w Ligue 1</font></center><br>
+ <center> <select>
+ <option value="1-14">PSG</option>
+ <option value="15-20">OM</option>
+<option value="21-25">OL</option>
+ <option value="26+">AS Monaco</option>
+ </select> </center>
+ </TD> 
+<TD width="300"> 
+<center><font size="5" color="black">Jaki jest najlepszy piłkarz w reprezentacji Polski</font></center><br>
+ <center> <select>
+ <option value="1-14">Robert Lewandowski</option>
+ <option value="15-20">Piotr Zieliński</option>
+<option value="21-25">Wojciech Szczęsny</option>
+ <option value="26+">Matty Cash</option>
+<option value="26+">Inny</option>
+ </select> </center>
+ </TD> 
+<TD width="300"> 
+<center><font size="5" color="black">Jaki jest najlepszy piłkarz na świecie</font></center><br>
+ <center> <select>
+ <option value="1-14">Robert Lewandowski</option>
+ <option value="15-20">Karim Benzema</option>
+<option value="21-25">Kevin De Bruyne</option>
+ <option value="26+">Erling Haaland</option>
+<option value="26+">Inny</option>
+ </select> </center>
+ </TD> 
+<TR height="100">
+ <TD><button onclick="alert('Witaj użytowniku')" style="height:80px;width:300px">Przycisk 
+niespodzianka</button></TD> 
+ <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> 
+</TD> 
+ <TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+ </TR>
+ </TABLE>
+</form>
+</body>
+</html>
 		<p><A HREF="index.html"> wroc </A></p>
 		</body>
 	</html>
